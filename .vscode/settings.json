@@ -1,0 +1,56 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "start",
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "workbench.editorAssociations": {
+      "*.json": "default"
+    },
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never"
+    },
+    "[go]": {
+      "editor.insertSpaces": false,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "never"
+      }
+    },
+    "editor.lineNumbers": "relative",
+    "telemetry.telemetryLevel": "off",
+    "go.enableCodeLens": {
+      "runtest": false,
+     
+    },
+    "go.survey.prompt": false,
+    "go.tasks.provideDefault": false,
+    "gopls": {
+      "ui.diagnostic.annotations": {
+        "bounds": true,
+        "escape": true,
+        "inline": true,
+        "nil": true
+      },
+      "ui.codelenses": {
+        "gc_details": true,
+        "run_govulncheck": true,
+        "generate": true,
+        "vendor": true,
+        "regenerate_cgo": true
+      },
+    }
+  }
